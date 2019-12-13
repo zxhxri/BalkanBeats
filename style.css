@@ -1,0 +1,276 @@
+html{
+    width: 1080px;
+/*    background-color: black;*/
+}
+@font-face {
+  font-family: myFont;
+  src:  url('font/NHaas.otf'); 
+}
+
+div{
+font-family:'myFont';
+font-size: 40pt;
+    line-height: 40pt;
+    cursor: pointer;
+}
+
+.mini{
+    position: absolute;
+    font-size: 18pt;
+    line-height: -52 !important;
+    padding-left:20px;
+}
+.mini2{
+    font-size: 18pt;
+    line-height: -52 !important;
+    padding-left:120px;
+}
+
+.soundcloud{
+    position: absolute;
+    width: 450px;
+    bottom:436px;
+    left:370px;
+    margin:0px;
+    display: none;
+}
+
+.line1{
+    width: 3px;
+    height: 370px;
+    background-color: black;
+    position: absolute;
+    bottom: 68px;
+    left: 374px;
+    display:none;
+/*    box-shadow: 10px 0 0 0 black;*/
+}
+
+.cumbia{
+    position: absolute;
+    width: 350px;
+    bottom:130px;
+    left:610px;
+    margin:0px;
+    display: none;
+}
+
+.line2{
+    width: 3px;
+    height: 438px;
+    background-color: black;
+    position: absolute;
+    bottom: -305px;
+    left: 615px;
+    display: none;
+}
+
+.beats{
+    position: absolute;
+    width: 330px;
+    bottom:55px;
+    left:30px;
+    margin:0px;
+    display: none;
+}
+
+.line3{
+    width: 3px;
+    height: 311px;
+    background-color: black;
+    position: absolute;
+    bottom: -250px;
+    left: 334px;
+    display: none;
+}
+
+.punk{
+    position: absolute;
+    width: 300px;
+    bottom:-10px;
+    left:745px;
+    margin:0px;
+    display: none;
+}
+
+.line4{
+    width: 3px;
+    height: 592px;
+    background-color: black;
+    position: absolute;
+    bottom: -600px;
+    left: 749px;
+    display: none;
+}
+
+.mix{
+    position: absolute;
+    width: 300px;
+    bottom:-223px;
+    left:775px;
+    margin:0px;
+    display: none;
+}
+.line5{
+    width: 3px;
+    height: 380px;
+    background-color: black;
+    position: absolute;
+    bottom: -600px;
+    left: 779px;
+    display: none;
+}
+.chalga{
+    position: absolute;
+    width: 180px;
+    bottom:-353px;
+    left:804px;
+    margin:0px;
+    display: none;
+}
+.line55{
+    width: 3px;
+    height: 250px;
+    background-color: black;
+    position: absolute;
+    bottom: -600px;
+    left: 809px;
+    display: none;
+}
+
+.world{
+    position: absolute;
+    width: 300px;
+    bottom:-310px;
+    left:332px;
+    margin:0px;
+    display: none;
+}
+.line6{
+    width: 3px;
+    height: 147px;
+    background-color: black;
+    position: absolute;
+    bottom: -454px;
+    left: 334px;
+    display: none;
+}
+
+.jazz{
+    position: absolute;
+    width: 300px;
+    bottom:-460px;
+    left:50px;
+    margin:0px;
+    display: none;
+}
+
+.line7{
+    width: 3px;
+    height: 142px;
+    background-color: black;
+    position: absolute;
+    bottom:-600px;
+    left: 53px;
+    display: none;
+}
+
+
+.wedding{
+    position: absolute;
+    width: 800px;
+    bottom:-670px;
+    left:64px;
+    margin:0px;
+    display: none;
+}
+
+.line8{
+    width: 3px;
+    height: 389px;
+    background-color: black;
+    position: absolute;
+    bottom: -997px;
+    left: 73px;
+    display: none;
+}
+.line9{
+    width: 3px;
+    height: 337px;
+    background-color: black;
+    position: absolute;
+    bottom: -945px;
+    left: 93px;
+    display: none;
+}
+
+.line10{
+    width: 3px;
+    height: 285px;
+    background-color: black;
+    position: absolute;
+    bottom: -893px;
+    left: 113px;
+    display: none;
+}
+
+.line11{
+    width: 3px;
+    height: 230px;
+    background-color: black;
+    position: absolute;
+    bottom: -838px;
+    left: 133px;
+    display: none;
+}
+
+.line12{
+    width: 3px;
+    height: 180px;
+    background-color: black;
+    position: absolute;
+    bottom: -788px;
+    left: 153px;
+    display: none;
+}
+
+
+.roots{
+    position: absolute;
+    width: 800px;
+    bottom:-1005px;
+    left:80px;
+    margin:0px;
+}
+
+audio{
+    display: none;
+}
+
+.line1, .line2, .line3, .line4, .line5, .line55, .line6, .line7, .line8, .line9, .line10, .line11, .line12{
+    
+    background: linear-gradient(130deg, white,white,black);
+    background-size: 200% 200%;
+
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+
